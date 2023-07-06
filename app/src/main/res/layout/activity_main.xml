@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mapImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bleTextView"
+        android:layout_marginTop="38dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/map_image" />
+
+    <TextView
+        android:id="@+id/bleTextView"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth" />
+    <TextView
+        android:id="@+id/wifiTextView"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Wifi" />
+
+    <TextView
+        android:id="@+id/nowTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Гибридная" />
+
+</RelativeLayout>
